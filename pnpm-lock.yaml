@@ -22,7 +22,7 @@ importers:
         version: 3.0.1
       '@cdktn/provider-project':
         specifier: ^0.9.0
-        version: 0.9.8(constructs@10.7.2)(projen@0.101.28(constructs@10.7.2))
+        version: 0.9.8(constructs@10.7.2)(projen@0.101.26(constructs@10.7.2))
       '@types/node':
         specifier: ^22
         version: 22.20.1
@@ -57,8 +57,8 @@ importers:
         specifier: ~5.9.0
         version: 5.9.60
       projen:
-        specifier: ^0.101.20
-        version: 0.101.28(constructs@10.7.2)
+        specifier: ^0.101.26
+        version: 0.101.26(constructs@10.7.2)
       semver:
         specifier: ^7.5.3
         version: 7.8.5
@@ -1403,8 +1403,8 @@ packages:
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
 
-  projen@0.101.28:
-    resolution: {integrity: sha512-ht+QXMiLSWh0XFFu7Eusmis0CLhdEzUahPEHxuWWLOjyPIrfpAuHgBBX+0/9mJ5JwRNY+vkDxoGFN80b9AhVmw==}
+  projen@0.101.26:
+    resolution: {integrity: sha512-MRrhx4r0/eaEvcsomM3Pls/06Tqbm/xl6UkEqghN1mBUyDaMxvSvgfxUE5GtJZjaizDzUM2/PkeqcvHZRDFVPw==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -1930,10 +1930,10 @@ snapshots:
       - jsii-rosetta
       - supports-color
 
-  '@cdktn/provider-project@0.9.8(constructs@10.7.2)(projen@0.101.28(constructs@10.7.2))':
+  '@cdktn/provider-project@0.9.8(constructs@10.7.2)(projen@0.101.26(constructs@10.7.2))':
     dependencies:
       constructs: 10.7.2
-      projen: 0.101.28(constructs@10.7.2)
+      projen: 0.101.26(constructs@10.7.2)
 
   '@cdktn/provider-schema@0.24.0(constructs@10.6.0)':
     dependencies:
@@ -3261,7 +3261,7 @@ snapshots:
 
   process-nextick-args@2.0.1: {}
 
-  projen@0.101.28(constructs@10.7.2):
+  projen@0.101.26(constructs@10.7.2):
     dependencies:
       constructs: 10.7.2
 
