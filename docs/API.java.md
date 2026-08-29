@@ -5,6 +5,8 @@
 The following submodules are available:
 
 - [customResource](./customResource.java.md)
+- [dataCfncompatAvailabilityZones](./dataCfncompatAvailabilityZones.java.md)
+- [dataCfncompatPseudoParameters](./dataCfncompatPseudoParameters.java.md)
 - [provider](./provider.java.md)
 - [providerFunctions](./providerFunctions.java.md)
 

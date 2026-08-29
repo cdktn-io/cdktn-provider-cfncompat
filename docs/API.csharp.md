@@ -5,6 +5,8 @@
 The following submodules are available:
 
 - [customResource](./customResource.csharp.md)
+- [dataCfncompatAvailabilityZones](./dataCfncompatAvailabilityZones.csharp.md)
+- [dataCfncompatPseudoParameters](./dataCfncompatPseudoParameters.csharp.md)
 - [provider](./provider.csharp.md)
 - [providerFunctions](./providerFunctions.csharp.md)
 

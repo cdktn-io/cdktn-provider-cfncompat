@@ -5,6 +5,8 @@
 The following submodules are available:
 
 - [customResource](./customResource.typescript.md)
+- [dataCfncompatAvailabilityZones](./dataCfncompatAvailabilityZones.typescript.md)
+- [dataCfncompatPseudoParameters](./dataCfncompatPseudoParameters.typescript.md)
 - [provider](./provider.typescript.md)
 - [providerFunctions](./providerFunctions.typescript.md)
 
