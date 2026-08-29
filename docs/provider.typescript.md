@@ -4,7 +4,7 @@
 
 ### CfncompatProvider <a name="CfncompatProvider" id="@cdktn/provider-cfncompat.provider.CfncompatProvider"></a>
 
-Represents a {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs cfncompat}.
+Represents a {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs cfncompat}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-cfncompat.provider.CfncompatProvider.Initializer"></a>
 
@@ -381,7 +381,7 @@ The construct id used in the generated config for the CfncompatProvider to impor
 
 The id of the existing CfncompatProvider that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -955,7 +955,7 @@ public readonly roleArn: string;
 
 ARN of the IAM role to assume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#role_arn CfncompatProvider#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#role_arn CfncompatProvider#role_arn}
 
 ---
 
@@ -969,7 +969,7 @@ public readonly duration: string;
 
 The duration of the role session, e.g. "1h". Parsed with Go's time.ParseDuration (valid units: ns, us, ms, s, m, h).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#duration CfncompatProvider#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#duration CfncompatProvider#duration}
 
 ---
 
@@ -983,7 +983,7 @@ public readonly externalId: string;
 
 External identifier to use when assuming the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#external_id CfncompatProvider#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#external_id CfncompatProvider#external_id}
 
 ---
 
@@ -997,7 +997,7 @@ public readonly policy: string;
 
 IAM policy in JSON format used as a session policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#policy CfncompatProvider#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#policy CfncompatProvider#policy}
 
 ---
 
@@ -1011,7 +1011,7 @@ public readonly policyArns: string[];
 
 ARNs of IAM policies used as managed session policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#policy_arns CfncompatProvider#policy_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#policy_arns CfncompatProvider#policy_arns}
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly sessionName: string;
 
 Session name to use when assuming the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#session_name CfncompatProvider#session_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#session_name CfncompatProvider#session_name}
 
 ---
 
@@ -1039,7 +1039,7 @@ public readonly sourceIdentity: string;
 
 Source identity to use when assuming the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#source_identity CfncompatProvider#source_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#source_identity CfncompatProvider#source_identity}
 
 ---
 
@@ -1053,7 +1053,7 @@ public readonly tags: {[ key: string ]: string};
 
 Map of assume role session tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#tags CfncompatProvider#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#tags CfncompatProvider#tags}
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly transitiveTagKeys: string[];
 
 Set of assume role session tag keys to pass to any subsequent sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#transitive_tag_keys CfncompatProvider#transitive_tag_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#transitive_tag_keys CfncompatProvider#transitive_tag_keys}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly roleArn: string;
 
 ARN of the IAM role to assume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#role_arn CfncompatProvider#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#role_arn CfncompatProvider#role_arn}
 
 ---
 
@@ -1119,7 +1119,7 @@ public readonly duration: string;
 
 The duration of the role session, e.g. "1h". Parsed with Go's time.ParseDuration (valid units: ns, us, ms, s, m, h).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#duration CfncompatProvider#duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#duration CfncompatProvider#duration}
 
 ---
 
@@ -1133,7 +1133,7 @@ public readonly policy: string;
 
 IAM policy in JSON format used as a session policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#policy CfncompatProvider#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#policy CfncompatProvider#policy}
 
 ---
 
@@ -1147,7 +1147,7 @@ public readonly policyArns: string[];
 
 ARNs of IAM policies used as managed session policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#policy_arns CfncompatProvider#policy_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#policy_arns CfncompatProvider#policy_arns}
 
 ---
 
@@ -1161,7 +1161,7 @@ public readonly sessionName: string;
 
 Session name to use when assuming the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#session_name CfncompatProvider#session_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#session_name CfncompatProvider#session_name}
 
 ---
 
@@ -1175,7 +1175,7 @@ public readonly webIdentityToken: string;
 
 Value of a web identity token from an OIDC/OAuth provider. One of `web_identity_token` or `web_identity_token_file` is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#web_identity_token CfncompatProvider#web_identity_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#web_identity_token CfncompatProvider#web_identity_token}
 
 ---
 
@@ -1189,7 +1189,7 @@ public readonly webIdentityTokenFile: string;
 
 File containing a web identity token from an OIDC/OAuth provider. One of `web_identity_token_file` or `web_identity_token` is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#web_identity_token_file CfncompatProvider#web_identity_token_file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#web_identity_token_file CfncompatProvider#web_identity_token_file}
 
 ---
 
@@ -1219,7 +1219,7 @@ const cfncompatProviderConfig: provider.CfncompatProviderConfig = { ... }
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.property.maxRetries">maxRetries</a></code> | <code>number</code> | The maximum number of times an AWS API request is retried on failure. If not set, defaults to 25. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.property.noProxy">noProxy</a></code> | <code>string</code> | Comma-separated list of hosts that should not use HTTP or HTTPS proxies. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.property.profile">profile</a></code> | <code>string</code> | The AWS profile name as set in the shared credentials/config files. |
-| <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.property.region">region</a></code> | <code>string</code> | The AWS region used by cfncompat_custom_resource API calls. |
+| <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.property.region">region</a></code> | <code>string</code> | The AWS region used by cfncompat_custom_resource API calls, and reported as CloudFormation's AWS::Region by the cfncompat_pseudo_parameters data source. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.property.secretKey">secretKey</a></code> | <code>string</code> | The AWS secret key. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.property.sharedConfigFiles">sharedConfigFiles</a></code> | <code>string[]</code> | Paths to shared config files. If not set, defaults to `~/.aws/config`. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.property.sharedCredentialsFiles">sharedCredentialsFiles</a></code> | <code>string[]</code> | Paths to shared credentials files. If not set, defaults to `~/.aws/credentials`. |
@@ -1240,7 +1240,7 @@ The AWS access key.
 
 Can also be sourced from the `AWS_ACCESS_KEY_ID` environment variable, or via a shared credentials file if `profile` is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#access_key CfncompatProvider#access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#access_key CfncompatProvider#access_key}
 
 ---
 
@@ -1254,7 +1254,7 @@ public readonly alias: string;
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#alias CfncompatProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#alias CfncompatProvider#alias}
 
 ---
 
@@ -1268,7 +1268,7 @@ public readonly assumeRole: CfncompatProviderAssumeRole;
 
 Configuration for assuming an IAM role prior to making AWS API calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#assume_role CfncompatProvider#assume_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#assume_role CfncompatProvider#assume_role}
 
 ---
 
@@ -1282,7 +1282,7 @@ public readonly assumeRoleWithWebIdentity: CfncompatProviderAssumeRoleWithWebIde
 
 Configuration for assuming an IAM role using a web identity token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#assume_role_with_web_identity CfncompatProvider#assume_role_with_web_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#assume_role_with_web_identity CfncompatProvider#assume_role_with_web_identity}
 
 ---
 
@@ -1296,7 +1296,7 @@ public readonly customResourceBucket: string;
 
 Default S3 bucket used for cfncompat_custom_resource response transport (the pre-signed PUT URL the custom resource handler writes its response to) when a cfncompat_custom_resource does not set its own `response_bucket`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#custom_resource_bucket CfncompatProvider#custom_resource_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#custom_resource_bucket CfncompatProvider#custom_resource_bucket}
 
 ---
 
@@ -1310,9 +1310,9 @@ public readonly endpoints: CfncompatProviderEndpoints;
 
 Service endpoint URL overrides, primarily for testing against LocalStack.
 
-Only used by cfncompat_custom_resource; the provider-defined functions make no AWS API calls.
+Only used by cfncompat_custom_resource and the cfncompat data sources; the provider-defined functions make no AWS API calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#endpoints CfncompatProvider#endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#endpoints CfncompatProvider#endpoints}
 
 ---
 
@@ -1328,7 +1328,7 @@ URL of a proxy to use for HTTP requests when accessing the AWS API.
 
 Can also be set using the `HTTP_PROXY`/`http_proxy` environment variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#http_proxy CfncompatProvider#http_proxy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#http_proxy CfncompatProvider#http_proxy}
 
 ---
 
@@ -1344,7 +1344,7 @@ URL of a proxy to use for HTTPS requests when accessing the AWS API.
 
 Can also be set using the `HTTPS_PROXY`/`https_proxy` environment variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#https_proxy CfncompatProvider#https_proxy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#https_proxy CfncompatProvider#https_proxy}
 
 ---
 
@@ -1358,7 +1358,7 @@ public readonly insecure: boolean | IResolvable;
 
 Explicitly allow the provider to perform "insecure" SSL requests. Defaults to `false`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#insecure CfncompatProvider#insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#insecure CfncompatProvider#insecure}
 
 ---
 
@@ -1372,7 +1372,7 @@ public readonly maxRetries: number;
 
 The maximum number of times an AWS API request is retried on failure. If not set, defaults to 25.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#max_retries CfncompatProvider#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#max_retries CfncompatProvider#max_retries}
 
 ---
 
@@ -1388,7 +1388,7 @@ Comma-separated list of hosts that should not use HTTP or HTTPS proxies.
 
 Can also be set using the `NO_PROXY`/`no_proxy` environment variables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#no_proxy CfncompatProvider#no_proxy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#no_proxy CfncompatProvider#no_proxy}
 
 ---
 
@@ -1402,7 +1402,7 @@ public readonly profile: string;
 
 The AWS profile name as set in the shared credentials/config files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#profile CfncompatProvider#profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#profile CfncompatProvider#profile}
 
 ---
 
@@ -1414,11 +1414,11 @@ public readonly region: string;
 
 - *Type:* string
 
-The AWS region used by cfncompat_custom_resource API calls.
+The AWS region used by cfncompat_custom_resource API calls, and reported as CloudFormation's AWS::Region by the cfncompat_pseudo_parameters data source.
 
 Can also be sourced from the `AWS_REGION`/`AWS_DEFAULT_REGION` environment variables, a shared config file, or the EC2 Instance Metadata Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#region CfncompatProvider#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#region CfncompatProvider#region}
 
 ---
 
@@ -1434,7 +1434,7 @@ The AWS secret key.
 
 Can also be sourced from the `AWS_SECRET_ACCESS_KEY` environment variable, or via a shared credentials file if `profile` is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#secret_key CfncompatProvider#secret_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#secret_key CfncompatProvider#secret_key}
 
 ---
 
@@ -1448,7 +1448,7 @@ public readonly sharedConfigFiles: string[];
 
 Paths to shared config files. If not set, defaults to `~/.aws/config`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#shared_config_files CfncompatProvider#shared_config_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#shared_config_files CfncompatProvider#shared_config_files}
 
 ---
 
@@ -1462,7 +1462,7 @@ public readonly sharedCredentialsFiles: string[];
 
 Paths to shared credentials files. If not set, defaults to `~/.aws/credentials`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#shared_credentials_files CfncompatProvider#shared_credentials_files}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#shared_credentials_files CfncompatProvider#shared_credentials_files}
 
 ---
 
@@ -1478,7 +1478,7 @@ Skip the AWS EC2 Instance Metadata API check.
 
 Useful when running somewhere without a metadata API endpoint (setting to `true` prevents authenticating via IMDS).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#skip_metadata_api_check CfncompatProvider#skip_metadata_api_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#skip_metadata_api_check CfncompatProvider#skip_metadata_api_check}
 
 ---
 
@@ -1494,7 +1494,7 @@ Session token for temporary credentials, typically provided after identity feder
 
 Can also be sourced from the `AWS_SESSION_TOKEN` environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#token CfncompatProvider#token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#token CfncompatProvider#token}
 
 ---
 
@@ -1512,10 +1512,27 @@ const cfncompatProviderEndpoints: provider.CfncompatProviderEndpoints = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderEndpoints.property.ec2">ec2</a></code> | <code>string</code> | Override the default EC2 service endpoint URL, used by the cfncompat_availability_zones data source. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderEndpoints.property.lambda">lambda</a></code> | <code>string</code> | Override the default Lambda service endpoint URL. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderEndpoints.property.s3">s3</a></code> | <code>string</code> | Override the default S3 service endpoint URL. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderEndpoints.property.sns">sns</a></code> | <code>string</code> | Override the default SNS service endpoint URL. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderEndpoints.property.sts">sts</a></code> | <code>string</code> | Override the default STS service endpoint URL. |
+
+---
+
+##### `ec2`<sup>Optional</sup> <a name="ec2" id="@cdktn/provider-cfncompat.provider.CfncompatProviderEndpoints.property.ec2"></a>
+
+```typescript
+public readonly ec2: string;
+```
+
+- *Type:* string
+
+Override the default EC2 service endpoint URL, used by the cfncompat_availability_zones data source.
+
+The override applies to every region, including one named by an explicit `region` argument on cfncompat_availability_zones -- the request is still signed for that region, but always sent to this endpoint.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#ec2 CfncompatProvider#ec2}
 
 ---
 
@@ -1529,7 +1546,7 @@ public readonly lambda: string;
 
 Override the default Lambda service endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#lambda CfncompatProvider#lambda}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#lambda CfncompatProvider#lambda}
 
 ---
 
@@ -1543,7 +1560,7 @@ public readonly s3: string;
 
 Override the default S3 service endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#s3 CfncompatProvider#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#s3 CfncompatProvider#s3}
 
 ---
 
@@ -1557,7 +1574,7 @@ public readonly sns: string;
 
 Override the default SNS service endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#sns CfncompatProvider#sns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#sns CfncompatProvider#sns}
 
 ---
 
@@ -1571,7 +1588,7 @@ public readonly sts: string;
 
 Override the default STS service endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs#sts CfncompatProvider#sts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.3.0/docs#sts CfncompatProvider#sts}
 
 ---
 
