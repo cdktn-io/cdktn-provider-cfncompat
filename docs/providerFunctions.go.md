@@ -11,7 +11,7 @@ Provider-defined functions of the cfncompat provider.
 #### Initializers <a name="Initializers" id="@cdktn/provider-cfncompat.providerFunctions.CfncompatProviderFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/providerfunctions"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/providerfunctions"
 
 providerfunctions.NewCfncompatProviderFunctions(providerLocalName *string) CfncompatProviderFunctions
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0
 #### Initializers <a name="Initializers" id="@cdktn/provider-cfncompat.provider.CfncompatProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 provider.NewCfncompatProvider(scope Construct, id *string, config CfncompatProviderConfig) CfncompatProvider
 ```
@@ -292,7 +292,7 @@ func ResetToken()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-cfncompat.provider.CfncompatProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 provider.CfncompatProvider_IsConstruct(x interface{}) *bool
 ```
@@ -324,7 +324,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-cfncompat.provider.CfncompatProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 provider.CfncompatProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -338,7 +338,7 @@ provider.CfncompatProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-cfncompat.provider.CfncompatProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 provider.CfncompatProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -352,7 +352,7 @@ provider.CfncompatProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-cfncompat.provider.CfncompatProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 provider.CfncompatProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -406,7 +406,7 @@ Refer to the {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat.providerFunctions.CfncompatProviderFunctions</code> | Provider-defined functions of the cfncompat provider. |
+| <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2.providerFunctions.CfncompatProviderFunctions</code> | Provider-defined functions of the cfncompat provider. |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProvider.property.accessKeyInput">AccessKeyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProvider.property.aliasInput">AliasInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProvider.property.assumeRoleInput">AssumeRoleInput</a></code> | <code><a href="#@cdktn/provider-cfncompat.provider.CfncompatProviderAssumeRole">CfncompatProviderAssumeRole</a></code> | *No description.* |
@@ -543,7 +543,7 @@ func Alias() *string
 func Functions() CfncompatProviderFunctions
 ```
 
-- *Type:* github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat.providerFunctions.CfncompatProviderFunctions
+- *Type:* github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2.providerFunctions.CfncompatProviderFunctions
 
 Provider-defined functions of the cfncompat provider.
 
@@ -924,7 +924,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-cfncompat.provider.CfncompatProviderAssumeRole.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 &provider.CfncompatProviderAssumeRole {
 	RoleArn: *string,
@@ -1086,7 +1086,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn
 #### Initializer <a name="Initializer" id="@cdktn/provider-cfncompat.provider.CfncompatProviderAssumeRoleWithWebIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 &provider.CfncompatProviderAssumeRoleWithWebIdentity {
 	RoleArn: *string,
@@ -1216,15 +1216,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn
 #### Initializer <a name="Initializer" id="@cdktn/provider-cfncompat.provider.CfncompatProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 &provider.CfncompatProviderConfig {
 	AccessKey: *string,
 	Alias: *string,
-	AssumeRole: github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat.provider.CfncompatProviderAssumeRole,
-	AssumeRoleWithWebIdentity: github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat.provider.CfncompatProviderAssumeRoleWithWebIdentity,
+	AssumeRole: github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2.provider.CfncompatProviderAssumeRole,
+	AssumeRoleWithWebIdentity: github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2.provider.CfncompatProviderAssumeRoleWithWebIdentity,
 	CustomResourceBucket: *string,
-	Endpoints: github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat.provider.CfncompatProviderEndpoints,
+	Endpoints: github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2.provider.CfncompatProviderEndpoints,
 	HttpProxy: *string,
 	HttpsProxy: *string,
 	Insecure: interface{},
@@ -1540,7 +1540,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cdktn
 #### Initializer <a name="Initializer" id="@cdktn/provider-cfncompat.provider.CfncompatProviderEndpoints.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/provider"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/provider"
 
 &provider.CfncompatProviderEndpoints {
 	Ec2: *string,
