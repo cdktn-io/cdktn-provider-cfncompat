@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0
 #### Initializers <a name="Initializers" id="@cdktn/provider-cfncompat.customResource.CustomResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/customresource"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/customresource"
 
 customresource.NewCustomResource(scope Construct, id *string, config CustomResourceConfig) CustomResource
 ```
@@ -449,7 +449,7 @@ func ResetStackId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-cfncompat.customResource.CustomResource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/customresource"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/customresource"
 
 customresource.CustomResource_IsConstruct(x interface{}) *bool
 ```
@@ -481,7 +481,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-cfncompat.customResource.CustomResource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/customresource"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/customresource"
 
 customresource.CustomResource_IsTerraformElement(x interface{}) *bool
 ```
@@ -495,7 +495,7 @@ customresource.CustomResource_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-cfncompat.customResource.CustomResource.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/customresource"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/customresource"
 
 customresource.CustomResource_IsTerraformResource(x interface{}) *bool
 ```
@@ -509,7 +509,7 @@ customresource.CustomResource_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-cfncompat.customResource.CustomResource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/customresource"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/customresource"
 
 customresource.CustomResource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -947,7 +947,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-cfncompat.customResource.CustomResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/customresource"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/customresource"
 
 &customresource.CustomResourceConfig {
 	Connection: interface{},

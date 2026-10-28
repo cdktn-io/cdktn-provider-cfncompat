@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0
 #### Initializers <a name="Initializers" id="@cdktn/provider-cfncompat.dataCfncompatAvailabilityZones.DataCfncompatAvailabilityZones.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/datacfncompatavailabilityzones"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/datacfncompatavailabilityzones"
 
 datacfncompatavailabilityzones.NewDataCfncompatAvailabilityZones(scope Construct, id *string, config DataCfncompatAvailabilityZonesConfig) DataCfncompatAvailabilityZones
 ```
@@ -305,7 +305,7 @@ func ResetRegion()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-cfncompat.dataCfncompatAvailabilityZones.DataCfncompatAvailabilityZones.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/datacfncompatavailabilityzones"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/datacfncompatavailabilityzones"
 
 datacfncompatavailabilityzones.DataCfncompatAvailabilityZones_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-cfncompat.dataCfncompatAvailabilityZones.DataCfncompatAvailabilityZones.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/datacfncompatavailabilityzones"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/datacfncompatavailabilityzones"
 
 datacfncompatavailabilityzones.DataCfncompatAvailabilityZones_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ datacfncompatavailabilityzones.DataCfncompatAvailabilityZones_IsTerraformElement
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-cfncompat.dataCfncompatAvailabilityZones.DataCfncompatAvailabilityZones.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/datacfncompatavailabilityzones"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/datacfncompatavailabilityzones"
 
 datacfncompatavailabilityzones.DataCfncompatAvailabilityZones_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -365,7 +365,7 @@ datacfncompatavailabilityzones.DataCfncompatAvailabilityZones_IsTerraformDataSou
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-cfncompat.dataCfncompatAvailabilityZones.DataCfncompatAvailabilityZones.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/datacfncompatavailabilityzones"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/datacfncompatavailabilityzones"
 
 datacfncompatavailabilityzones.DataCfncompatAvailabilityZones_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -638,7 +638,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-cfncompat.dataCfncompatAvailabilityZones.DataCfncompatAvailabilityZonesConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/datacfncompatavailabilityzones"
+import "github.com/cdktn-io/cdktn-provider-cfncompat-go/cfncompat/v2/datacfncompatavailabilityzones"
 
 &datacfncompatavailabilityzones.DataCfncompatAvailabilityZonesConfig {
 	Connection: interface{},
